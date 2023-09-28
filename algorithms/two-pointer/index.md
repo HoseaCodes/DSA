@@ -42,7 +42,7 @@ The strength of this technique is that we will never have more than O(n) iterati
         return true;
     }
    ```
-1. #### Two Sum
+1. #### Two Sum - Sorted
    For example, given nums = [1, 2, 4, 6, 8, 9, 14, 15] and target = 13, return true because 4 + 9 = 13.
 
    ```js
