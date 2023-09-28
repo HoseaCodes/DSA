@@ -24,7 +24,7 @@ The strength of this technique is that we will never have more than O(n) iterati
 
 ## Common Problems
 
-1. Reversing a string
+1. #### Reversing a string
    ```js
     var checkIfPalindrome = function(s) {
         let left = 0;
@@ -42,7 +42,7 @@ The strength of this technique is that we will never have more than O(n) iterati
         return true;
     }
    ```
-1. Two Sum
+1. #### Two Sum
    For example, given nums = [1, 2, 4, 6, 8, 9, 14, 15] and target = 13, return true because 4 + 9 = 13.
 
    ```js
@@ -67,7 +67,7 @@ The strength of this technique is that we will never have more than O(n) iterati
         return false;
     }
    ```
-1. Two Arrays
+1. #### Two Arrays
     Given two sorted integer arrays arr1 and arr2, return a new array that combines both of them and is also sorted.
 
     ```js
@@ -98,4 +98,21 @@ The strength of this technique is that we will never have more than O(n) iterati
         
         return ans;
     }
+    ```
+1. #### Is Subsequence
+   A subsequence of a string is a sequence of characters that can be obtained by deleting some (or none) of the characters from the original string, while maintaining the relative order of the remaining characters. For example, "ace" is a subsequence of "abcde" while "aec" is not.
+
+    ```js
+    var isSubsequence = function(s, t) {
+        let i = 0, j = 0;
+        while (i < s.length && j < t.length) {
+            if (s[i] == t[j]) {
+                i++;
+            }
+            
+            j++;
+        }
+        
+        return i == s.length;
+    };
     ```
