@@ -1,3 +1,24 @@
+Each Section needs:
+- Brief overview anyone can understand
+- Coding visualizer or a picture of it
+- Why use 
+- Pros and Cons
+- Time & Space Complexity - using a chart 
+  - Headers: Operation - Big O - Explanantion
+- What is this data structure / algorithm optimized for with code implementation
+
+Flash Cards
+
+Practice:
+- Leetcode
+- AlgoExpert
+- Steps
+  - Solve the problem conceptually
+  - Apply this into code
+  - If you do not get it in 30 mins look at the solution
+  - Understand the solution
+  - What is the pattern
+
 31 Total Patterns to Prep For
 - [ ] Queues
 - [ ] Stacks
