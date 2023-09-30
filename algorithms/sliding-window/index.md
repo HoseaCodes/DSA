@@ -6,9 +6,9 @@ Sliding windows work the same with arrays and strings - the important thing is t
 
 There is a very common group of problems involving subarrays that can be solved efficiently with sliding window. 
 
-Whenever a problem description talks about subarrays, you should figure out if sliding window is a good option by analyzing the problem description. If you can find the things mentioned below, then it's a good bet.
+    Whenever a problem description talks about subarrays, you should figure out if sliding window is a good option by analyzing the problem description. If you can find the things mentioned below, then it's a good bet.
 
-FIrst, the problem will either explicitly or implicitly define criteria that make a subarray "valid". There are 2 components regarding what makes a subarray valid:
+First, the problem will either explicitly or implicitly define criteria that make a **subarray "valid"**. There are 2 components regarding what makes a subarray valid:
 
 1. A constraint metric. This is some attribute of a subarray. It could be the sum, the number of unique elements, the frequency of a specific element, or any other attribute.
 
@@ -19,6 +19,10 @@ Second, the problem will ask you to find valid subarrays in some way.
 1. The most common task you will see is finding the best valid subarray. The problem will define what makes a subarray better than another. For example, a problem might ask you to find the longest valid subarray.
 
 1. Another common task is finding the number of valid subarrays. We will take a look at this later in the article.
+
+1. You need to find the subrange in this array or string that should provide the longest, shortest, or target values.
+
+1. A classic problem: to find the largest/smallest sum of given k (for example, three) consecutive numbers in an array.
 
 ### Pseudocode
 
