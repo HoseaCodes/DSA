@@ -3,7 +3,7 @@
 | Question   |   Completed      |   Type      |  Algorithm | <p style="text-align: center;">Notes</p>|
 |----------| :-------------:|:-------------:|------:|------:|
 | Longest Substring Without Repeating Characters | ✅ Completed | Arrays & Strings  | Sliding Window  | <p style="text-align: justify;">To solve this problem, we can use the hash table and iterate over our term. Let's do two checks on 0 and 1 so as not to waste extra time. Now we can start, we gradually add our letters to the hash table, if it already contains this letter, we delete the letter corresponding to the leftmost index. After that we add our new element. The maximum length is found by comparing our current length with the new one, using Math.max.</p> |
-| String to Integer (atoi) |  Not Completed |  Arrays & Strings    |   n/a | Notes |
+| String to Integer (atoi) |  ✅ Completed |  Arrays & Strings    |   n/a | <p style="text-align: justify;">Turn the string into an array. Create a negative and positive max and return the value if the converted string gets out of bounds. If the converted string is not a number return 0 else return the converted number.</p> |
 | Roman to Integer |  Not Completed | Arrays & Strings |    n/a | Notes |
 | 3Sum |  Not Completed | Arrays & Strings |    n/a | Notes |
 | Remove Duplicates from Sorted Array |  Not Completed | Arrays & Strings |    n/a | Notes |
