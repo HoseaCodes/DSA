@@ -33,7 +33,7 @@
 | Binary Tree Maximum Path Sum  |  ✅ Completed | Trees and Graphs | BST | <p style="text-align: justify;">Standarded BST</p> |
 | Clone Graph  |  Not Completed | Trees and Graphs |    n/a | <p style="text-align: justify;">Notes</p> |
 | Binary Tree Right Side View  |  Not Completed | Trees and Graphs |    n/a | <p style="text-align: justify;">Notes</p> |
-| Number of Islands  |  Not Completed | Trees and Graphs |    n/a | <p style="text-align: justify;">Notes</p> |
+| Number of Islands  |  ✅ Completed | Trees and Graphs | Recursive BFS | <p style="text-align: justify;">Recursive BFS</p> |
 | Lowest Common Ancestor of a Binary Tree  |  Not Completed | Trees and Graphs |    n/a | <p style="text-align: justify;">Notes</p> |
 | Binary Tree Paths  |  Not Completed | Trees and Graphs |    n/a | <p style="text-align: justify;">Notes</p> |
 | Alien Dictionary  |  Not Completed | Trees and Graphs |    n/a | <p style="text-align: justify;">Notes</p> |
