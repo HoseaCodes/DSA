@@ -65,7 +65,7 @@
 | Decode Ways  |  Not Completed | Dynamic Programming |    n/a | <p style="text-align: justify;">Notes</p> |
 | Best Time to Buy and Sell Stock  |  Not Completed | Dynamic Programming |    n/a | <p style="text-align: justify;">Notes</p> |
 | Word Break  |  Not Completed | Dynamic Programming |    n/a | <p style="text-align: justify;">Notes</p> |
-| Range Sum Query 2D - Immutable  |  Not Completed | Dynamic Programming |    n/a | <p style="text-align: justify;">Notes</p> |
+| Range Sum Query 2D - Immutable  |  ✅ Completed | Dynamic Programming | Iterative | <p style="text-align: justify;">1. Create a 2d prefix sum, where prefix[row][col] is the sum of all numbers in the rectangle to the upper left of (row, col).<br/>For each range, we can get the sum by using four prefix sums - one for each corner of the 2d range.</p> |
 | Continuous Subarray Sum  |  ✅ Completed | Dynamic Programming | Iterative | <p style="text-align: justify;">Notes</p> |
  
 
