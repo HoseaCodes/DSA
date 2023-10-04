@@ -66,7 +66,7 @@
 | Best Time to Buy and Sell Stock  |  Not Completed | Dynamic Programming |    n/a | <p style="text-align: justify;">Notes</p> |
 | Word Break  |  Not Completed | Dynamic Programming |    n/a | <p style="text-align: justify;">Notes</p> |
 | Range Sum Query 2D - Immutable  |  Not Completed | Dynamic Programming |    n/a | <p style="text-align: justify;">Notes</p> |
-| Continuous Subarray Sum  |  Not Completed | Dynamic Programming |    n/a | <p style="text-align: justify;">Notes</p> |
+| Continuous Subarray Sum  |  ✅ Completed | Dynamic Programming | Iterative | <p style="text-align: justify;">Notes</p> |
  
 
                   
