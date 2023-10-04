@@ -30,7 +30,7 @@
 |  Copy List with Random Pointer |  ✅ Completed | Linked Lists | Recursive | <p style="text-align: justify;">Start traversing the graph from head node. If we already have a cloned copy of the current node in the visited dictionary, we use the cloned node reference. If we don't have a cloned copy in the visited dictionary, we create a new node and add it to the visited dictionary. visited_dictionary[current_node] = cloned_node_for_current_node. We then make two recursive calls, one using the random pointer and the other using next pointer. The diagram from step 1, shows random and next pointers in red and blue color respectively. Essentially we are making recursive calls for the children of the current node. In this implementation, the children are the nodes pointed by the random and the next pointers.</p> |
 | Validate Binary Search Tree  |  ✅ Completed | Trees and Graphs | DFS | <p style="text-align: justify;">Standarded DFS</p> |
 | Flatten Binary Tree to Linked List  |  Not Completed | Trees and Graphs |  n/a | <p style="text-align: justify;">Notes</p> |
-| Binary Tree Maximum Path Sum  |  Not Completed | Trees and Graphs |    n/a | <p style="text-align: justify;">Notes</p> |
+| Binary Tree Maximum Path Sum  |  ✅ Completed | Trees and Graphs | BST | <p style="text-align: justify;">Standarded BST</p> |
 | Clone Graph  |  Not Completed | Trees and Graphs |    n/a | <p style="text-align: justify;">Notes</p> |
 | Binary Tree Right Side View  |  Not Completed | Trees and Graphs |    n/a | <p style="text-align: justify;">Notes</p> |
 | Number of Islands  |  Not Completed | Trees and Graphs |    n/a | <p style="text-align: justify;">Notes</p> |
