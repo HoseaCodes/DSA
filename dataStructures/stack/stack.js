@@ -1,3 +1,21 @@
+/*
+LIFO - Last In First Out
+
+Push - add to the top of the stack. 
+Pop - remove from the top of the stack. 
+Peek - display the first element of a stack.
+Size - how many elements are in a stack. 
+
+stack = []
+stack.push(1)
+stack.peek() // returns 1
+stack.push(2)
+stack.peek() // returns 2
+stack.push(3)
+stack.peek() // returns 3
+stack.pop() // removes and return 3, now [1,2] is left on the stack.
+*/
+
 class Stack {
     constructor() {
         this.stack = [];
@@ -45,3 +63,16 @@ class Stack {
 }
 
 module.exports = {Stack}
+
+const stack = new Stack();
+stack.isEmpty();
+stack.add(1)
+stack.add(2)
+console.log(stack.peek())
+stack.add(3)
+stack.add(4)
+stack.remove()
+stack.add(5)
+console.log(stack)
+console.log(stack.peek())
+console.log(stack.search(3))
