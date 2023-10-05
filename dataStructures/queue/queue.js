@@ -1,3 +1,33 @@
+/*
+FIFO - First In First Out
+
+enqueue - add to the back of the queue. 
+dequeue - remove from the front of the queue. 
+isEmpty - checks if queue is empty.
+Size - how many elements are in a queue. 
+
+[]
+[1]
+[1,2]
+[1,2,3]
+[1,2,3,4]
+[2,3,4]
+[2,3,4,5]
+[3,4,5,6]
+
+queue = []
+queue.enqueue(1)
+[1]
+queue.front() // returns 1
+queue.enqueue(2)
+[1,2]
+queue.front() // returns 1
+queue.enqueue(3)
+[1,2,3]
+queue.dequeue()
+[2,3]
+queue.front() // returns 2
+*/
 
 class Queue{
     constructor() {
@@ -19,7 +49,7 @@ class Queue{
         if (this.isFull()) return false;
         this.queue[this.tail] = value;
         this.tail++;
-        // return this.queue.unshift(value);
+        // return this.queue.push(value);
         return true;
     }
 
