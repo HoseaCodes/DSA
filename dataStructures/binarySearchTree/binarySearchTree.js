@@ -31,6 +31,22 @@ class BinarySearchTree {
         }
     }
 
+    findMin() {
+        let currentNode = this.root;
+        while (currentNode.left !== null) {
+            currentNode = currentNode.left
+        }
+        return currentNode.value
+    }
+
+    findMax() {
+        let currentNode = this.root;
+        while (currentNode.right !== null) {
+            currentNode = currentNode.right
+        }
+        return currentNode.value
+    }
+
     printTree() {
         const printNode = (node) => {
             if (node === null) return;
@@ -41,6 +57,21 @@ class BinarySearchTree {
         }
         
         printNode(this.root);
+    }
+
+    isPresent(data) {
+        let current = this.root;
+        while (current) {
+            if (data === current.data) {
+                return true;
+            }
+            if (data < current.data) {
+                current = current.left;
+            } else {
+                current = current.right;
+            }
+        }
+        return false;
     }
 
     lookup(value) {
@@ -92,9 +123,35 @@ class BinarySearchTree {
 
     }
 
-    search() {
-
+    search(value) {
+        let currentNode = this.root;
+        while (currentNode.value !== value) {
+            if (value < currentNode.value) {
+                currentNode = currentNode.left;
+            } else if (value > currentNode.value) {
+                currentNode = currentNode.right;
+            }
+            if (currentNode === null) return null
+        }
+        return currentNode;
     }
+
 }
 
 module.exports = { BinarySearchTree }
+
+const bst = new BinarySearchTree();
+
+bst.add(9);
+bst.add(4);
+bst.add(17);
+bst.add(3);
+bst.add(4);
+console.log(bst.findMax());
+console.log(bst.isPresent(4));
+bst.add(22);
+bst.add(5);
+bst.add(7);
+bst.add(20);
+console.log(bst.findMax());
+
